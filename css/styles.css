@@ -55,3 +55,16 @@ background-color:var(--bg-section);
 .address{
     color: var(--primary-white-color);
 }
+/* !ПОРТФОЛИО */
+.button{
+    color: var(--title-text-color);
+}
+.button{
+    cursor: pointer;
+}
+.image-link{
+    color: var(--title-text-color);
+}
+.image-link:hover,
+.image-link:focus{
+    color: var(--accent-color);}
