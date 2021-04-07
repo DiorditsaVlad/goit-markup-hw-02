@@ -7,9 +7,25 @@
 
 }
 /* header */
+
+
 .page-logo{
+    font-family: Raleway, sans-serif;
+}
+.logo-studio:hover,
+.logo-studio:focus,
+.logo-web:hover ,
+.logo-web:focus
+    {
+        color: var(--accent-color);}
+.logo-web{
     color: var(--accent-color);
 }
+.logo-studio{
+    color:#000000;
+}
+
+
 
 .sate-nav:hover ,
 .sate-nav:focus{
@@ -26,8 +42,9 @@
     color:var(--link-text-color);
 }
 /* body */
-.page{
-    background: #ffffff;
+body{
+    background-color: var(--primary-white-color);
+    font-family: Roboto, sans-serif;
 }
 .section{
 background-color:var(--bg-section);
